@@ -9,6 +9,12 @@ const projects = [
     desc: "A personal portfolio website built with React and Tailwind CSS."
   },
   {
+    title: "E-commerce Website",
+    link: "https://nextshop-two.vercel.app/",
+    img: "/p4.png",
+    desc: "A e-commerce website built with Next JS, Tailwind CSS, MongoDB, Express, Clerk Authentication, Redux Toolkit."
+  },
+  {
     title: "Home Rent App (Demo)",
     link: "https://home-rent-one.vercel.app",
     img: "/p1.png",
@@ -25,13 +31,7 @@ const projects = [
     link: "https://k72-ca-eta.vercel.app/",
     img: "/p3.png",
     desc: "A clone of K72 built with React, Bootstrap, MongoDB, Express, Gsap"
-  },
-  {
-    title: "E-commerce Website (Demo)",
-    link: "https://github.com/Arafat-Rahman-603/E-Shop",
-    img: "/p4.png",
-    desc: "A demo e-commerce website built with React, Bootstrap, MongoDB, Express."
-  },
+  }
 ];
 
 export default function Projects() {
